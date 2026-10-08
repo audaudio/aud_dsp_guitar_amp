@@ -1,0 +1,16 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: AudDspGuitarAmpBindings
+description: |
+  Bindings for `src/aud_dsp_guitar_amp.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+output: 'lib/aud_dsp_guitar_amp_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/aud_dsp_guitar_amp.h'
+  include-directives:
+    - 'src/aud_dsp_guitar_amp.h'
+ffi-native:
+comments:
+  style: any
+  length: full
