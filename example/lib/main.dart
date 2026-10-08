@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'dart:async';
 
-import 'package:aud_dsp_guitar_amp/aud_dsp_guitar_amp.dart' as aud_dsp_guitar_amp;
+import 'package:aud_dsp_guitar_amp/aud_dsp_guitar_amp.dart'
+    as aud_dsp_guitar_amp;
 
 void main() {
   runApp(const MyApp());
