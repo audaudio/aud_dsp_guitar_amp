@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `aud_dsp_guitar_amp` package.
-const String audDspGuitarAmpVersion = '0.1.0';
+const String audDspGuitarAmpVersion = '0.1.1';
